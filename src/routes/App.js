@@ -1,3 +1,11 @@
-const App = () => {};
+import Header from "../components/Header";
+import Welcome from "../components/Welcome";
 
-export default App;
+export default function App() {
+  return (
+    <div className="max-w-6xl m-auto">
+      <Header />
+      <Welcome />
+    </div>
+  );
+}
