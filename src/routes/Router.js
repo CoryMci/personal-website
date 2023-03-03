@@ -3,7 +3,7 @@ import App from "./App.js";
 
 export default function Router() {
   return (
-    <BrowserRouter basename="https://corymci.github.io/personal-website/">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<App />} />
       </Routes>
