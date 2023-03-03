@@ -1,5 +1,3 @@
-import profile from "../assets/profile.jpg";
-
 export default function Skills() {
   return (
     <div className="min-h-screen md:min-h-[90vh] px-12 justify-center items-center uppercase">
