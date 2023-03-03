@@ -3,7 +3,7 @@ import App from "./App.js";
 
 export default function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="https://corymci.github.io/personal-website/">
       <Routes>
         <Route path="/" element={<App />} />
       </Routes>
