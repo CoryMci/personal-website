@@ -31,7 +31,7 @@ export default function Welcome() {
   }, [title]);
 
   return (
-    <div className="min-h-[90vh] flex flex-col justify-center">
+    <div className="min-h-[90vh] flex flex-col justify-center indent-5">
       <div className="text-6xl uppercase tracking-wider">Cory McIver</div>
       <div className="text-3xl tracking-wide">
         <span className="line-through pr-2">Web Developer</span>
