@@ -3,7 +3,7 @@ import profile from "../assets/profile.jpg";
 export default function Skills() {
   return (
     <div className="min-h-screen md:min-h-[90vh] px-12 justify-center items-center uppercase">
-      <div className="tracking-wide text-5xl font-medium text-center pb-24">
+      <div className="tracking-wide text-5xl font-medium text-center py-24">
         My Skills
       </div>
       <div className="grid grid-cols-2 gap-4 md:gap-10 sm:gap-6 md:grid-cols-4 sm:grid-cols-2 justify-center items-center transition-all duration-500">

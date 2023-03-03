@@ -2,7 +2,10 @@ import profile from "../assets/profile.jpg";
 
 export default function About() {
   return (
-    <div className="min-h-screen md:min-h-[90vh] px-12 gap-12 justify-center items-center md:items-start">
+    <div
+      id="about"
+      className="min-h-screen md:min-h-[90vh] px-12 gap-12 justify-center items-center md:items-start"
+    >
       <div className="tracking-wide uppercase text-5xl py-12 font-medium text-center">
         About Me
       </div>

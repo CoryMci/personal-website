@@ -1,13 +1,15 @@
 import About from "../components/About";
 import Header from "../components/Header";
+import Skills from "../components/Skills";
 import Welcome from "../components/Welcome";
 
 export default function App() {
   return (
-    <div className="max-w-6xl m-auto">
+    <div id="home" className="max-w-6xl m-auto">
       <Header />
       <Welcome />
       <About />
+      <Skills />
     </div>
   );
 }
