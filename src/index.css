@@ -3,10 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'roboto';
-  src: url('./assets/roboto.ttf') format('truetype');
-  font-weight: 1000;
-  font-style: normal;
+  font-family: 'nunito';
+  src: url('./assets/Nunito-VariableFont_wght.ttf') format('truetype');
 }
 
 @layer base {
