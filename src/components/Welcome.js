@@ -2,13 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 export default function Welcome() {
-  const titles = [
-    "Accountant",
-    "Programmer",
-    "Climber",
-    "Surfer",
-    "Backpacker",
-  ];
+  const titles = ["Accountant", "Programmer", "Climber", "Backpacker"];
   const [title, setTitle] = useState(titles[0]);
 
   function nextTitle() {
@@ -31,11 +25,13 @@ export default function Welcome() {
   }, [title]);
 
   return (
-    <div className="min-h-[90vh] flex flex-col justify-center indent-5">
-      <div className="text-6xl uppercase tracking-wider">Cory McIver</div>
-      <div className="text-3xl tracking-wide">
+    <div className="min-h-[90vh] flex flex-col justify-center pl-4">
+      <div className="text-4xl md:text-6xl sm:text-3xl sm:text-bold uppercase tracking-wider">
+        Cory McIver
+      </div>
+      <div className="flex text-2xl flex-col md:flex-row md:text-3xl sm:text-xl sm:text-bold tracking-wide">
         <span className="line-through pr-2">Web Developer</span>
-        {title}
+        <span>{title}</span>
       </div>
     </div>
   );
