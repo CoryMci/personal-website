@@ -12,7 +12,7 @@ export default function Projects() {
           src={pomo}
           alt="pomo"
         />
-        <div className="flex flex-col md:h-fit md:w-96 gap-2">
+        <div className="mx-auto flex flex-col md:h-fit md:w-96 gap-2">
           <h1 className="text-xl md:text-2xl font-bold uppercase">
             Pomodoro Timer
           </h1>
