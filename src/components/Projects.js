@@ -2,7 +2,10 @@ import pomo from "../assets/Preview.png";
 
 export default function Projects() {
   return (
-    <div className="min-h-screen md:min-h-[90vh] px-12 justify-center items-center">
+    <div
+      id="projects"
+      className="min-h-screen md:min-h-[90vh] px-12 justify-center items-center"
+    >
       <div className="tracking-wide text-5xl font-medium uppercase text-center py-24">
         My Projects
       </div>
